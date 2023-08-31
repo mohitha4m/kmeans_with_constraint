@@ -1,4 +1,4 @@
-# kmeans_with_constraint
+# kmeans clustering with size constraint
 Kmeans clustering with cluster size constraints - min and max
 
 
