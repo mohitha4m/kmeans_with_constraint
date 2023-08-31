@@ -13,6 +13,8 @@ There are few limitations-
 - Edge Cases: The code may encounter edge cases where it's not possible to meet the size constraints
 
 ## Example -
+
+~~~
 np.random.seed(0)
 X = np.random.rand(300, 2)
 k = 5
@@ -25,3 +27,4 @@ cluster_sizes = np.bincount(labels.astype(int))
 # Print the cluster sizes
 for cluster_idx, size in enumerate(cluster_sizes):
     print(f"Cluster {cluster_idx}: {size} data points")
+~~~
