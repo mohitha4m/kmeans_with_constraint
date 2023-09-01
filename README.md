@@ -5,7 +5,7 @@ Kmeans clustering with cluster size constraints - min and max
 
 Simple implementation of K-means algorithm with minimum and maximum cluster size constraint
 This is done by reassigning points if the cluster size is not in the range of minimum and maximum cluster size, 
-the reassignment is done by assigning to the next best cluster based on the euclidean distance b/n data and centroid
+the reassignment is done by assigning to the next best cluster based distance metric
 of each cluster
 
 There are few limitations-
